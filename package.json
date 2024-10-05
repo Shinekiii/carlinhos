@@ -1,0 +1,28 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . -t node16-win-x64,node16-macos-x64,node16-linux-x64 --out-path dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.4.0"
+  },
+  "dependencies": {
+    "electron.js": "^0.0.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.9.0",
+    "nodemailer": "^6.9.15",
+    "obs-websocket-js": "^5.0.5",
+    "pkg": "^5.8.1",
+    "sqlite3": "^5.1.7",
+    "tmi.js": "^1.8.5"
+  }
+}
